@@ -3,23 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <!-- Link to Font Awesome icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>GitHub Username Search</title>
 </head>
 <body>
   <header>
+    <!-- Main title for the page -->
     <h1>GitHub Username Search</h1>
   </header>
   <main>
-    
+    <!-- Container for search input and buttons -->
     <div class="search-container">
-        <input type="text" id="usernameInput" placeholder="Enter a GitHub username">
-        <button id="searchButton"><i class="fas fa-search"></i></button>
-        <button id="clearButton"><i class="fas fa-times"></i></button>
-      </div>
+      <!-- Input field for entering GitHub username -->
+      <input type="text" id="usernameInput" placeholder="Enter a GitHub username">
+      <!-- Button to initiate search -->
+      <button id="searchButton"><i class="fas fa-search"></i></button>
+      <!-- Button to clear the search input -->
+      <button id="clearButton"><i class="fas fa-times"></i></button>
+    </div>
+    <!-- Container to display search results -->
     <div id="result"></div>
   </main>
+  <!-- Link to external JavaScript file -->
   <script src="script.js"></script>
 </body>
 </html>
