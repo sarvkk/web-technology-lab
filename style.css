@@ -41,9 +41,10 @@ body {
     background-color: #ecf0f1;
     width: 100%;
     max-width: 300px;
+    margin-right: .5rem;
   }
   
-  button {
+  #searchButton {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     background-color: #3498db;
@@ -54,16 +55,19 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  button:hover {
+  #searchButton:hover {
     background-color: #2980b9;
+  }
+  i{
+    font-size: 1.25rem;
   }
   .search-container {
     display: flex;
     align-items: center;
-   }
+  }  
       
   #clearButton {
-        margin-left: 10px;
+        margin-left: .5rem;
         padding: 0.5rem 1rem;
         font-size: 1rem;
         background-color: #3d4a5f;
