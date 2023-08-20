@@ -50,3 +50,4 @@ clearButton.addEventListener("click", () => {
     usernameInput.value = ""; // Clear the input field
     resultDiv.innerHTML = ""; // Clear the result display
 });
+ 
